@@ -1,0 +1,148 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/ew820/Desktop/eric_wu_75286914_Lab2/sim/fsm_address
+vfreq_generate
+Z0 DXx6 sv_std 3 std 0 22 <EOTafDcUY:cQeO^ICn]m3
+!s110 1613139002
+!i10b 1
+!s100 SHdK?W8oA<E6iQ:bSD3Mn2
+I4T]mXIHV=dHYzQD5OBZ;K1
+Z1 V`JN@9S9cnhjKRR_L]QIcM3
+!s105 freq_generate_sv_unit
+S1
+Z2 dC:/Users/ew820/Desktop/eric_wu_75286914_Lab2/sim/freq_generate
+w1613138536
+8C:/Users/ew820/Desktop/eric_wu_75286914_Lab2/rtl/freq_generate.sv
+FC:/Users/ew820/Desktop/eric_wu_75286914_Lab2/rtl/freq_generate.sv
+L0 1
+Z3 OV;L;10.3c;59
+r1
+!s85 0
+31
+!s108 1613139002.029000
+!s107 C:/Users/ew820/Desktop/eric_wu_75286914_Lab2/rtl/freq_generate.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/ew820/Desktop/eric_wu_75286914_Lab2/rtl/freq_generate.sv|
+!i113 1
+Z4 o-work work -sv
+vfreq_generate_tb
+R0
+!s110 1613139001
+!i10b 1
+!s100 4AiE0=4>7DY_jaGPT5n_@2
+IB2Q@RFAVdQR^>Wa<XW9@53
+R1
+!s105 freq_generate_tb_sv_unit
+S1
+R2
+w1613138997
+8C:/Users/ew820/Desktop/eric_wu_75286914_Lab2/rtl/freq_generate_tb.sv
+FC:/Users/ew820/Desktop/eric_wu_75286914_Lab2/rtl/freq_generate_tb.sv
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1613139001.963000
+!s107 C:/Users/ew820/Desktop/eric_wu_75286914_Lab2/rtl/freq_generate_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/ew820/Desktop/eric_wu_75286914_Lab2/rtl/freq_generate_tb.sv|
+!i113 1
+R4
+vshared_access_to_one_state_machine
+R0
+Z5 !s110 1613890019
+!i10b 1
+!s100 AS7<kOe`M^m0]:fl6QG?o2
+IEBZJ>JY<^GIR7>agbn^W=0
+R1
+!s105 shared_access_to_one_state_machine_sv_unit
+S1
+R2
+w1613889921
+8C:/Users/ew820/Desktop/School/Third Year/CPEN311/Homework/HW3/shared_access_to_one_state_machine.sv
+FC:/Users/ew820/Desktop/School/Third Year/CPEN311/Homework/HW3/shared_access_to_one_state_machine.sv
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1613890019.892000
+!s107 C:/Users/ew820/Desktop/School/Third Year/CPEN311/Homework/HW3/shared_access_to_one_state_machine.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/ew820/Desktop/School/Third Year/CPEN311/Homework/HW3/shared_access_to_one_state_machine.sv|
+!i113 1
+R4
+vshared_access_to_one_state_machine_tb
+R0
+R5
+!i10b 1
+!s100 3HD=PoJK079H>7]m`RkA21
+IT5j2HHcc;L6]JofcZi`i?3
+R1
+!s105 shared_access_to_one_state_machine_tb_sv_unit
+S1
+R2
+w1613886874
+8C:/Users/ew820/Desktop/School/Third Year/CPEN311/Homework/HW3/shared_access_to_one_state_machine_tb.sv
+FC:/Users/ew820/Desktop/School/Third Year/CPEN311/Homework/HW3/shared_access_to_one_state_machine_tb.sv
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1613890019.968000
+!s107 C:/Users/ew820/Desktop/School/Third Year/CPEN311/Homework/HW3/shared_access_to_one_state_machine_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/ew820/Desktop/School/Third Year/CPEN311/Homework/HW3/shared_access_to_one_state_machine_tb.sv|
+!i113 1
+R4
+vtrap_edge
+R0
+R5
+!i10b 1
+!s100 ic[iK]UBj[DDZQFMU4@6=1
+Iz5DdFD1KAF>lfh@95UfJN0
+R1
+!s105 trap_edge_sv_unit
+S1
+R2
+w1613841284
+8C:/Users/ew820/Desktop/School/Third Year/CPEN311/Homework/HW3/trap_edge.sv
+FC:/Users/ew820/Desktop/School/Third Year/CPEN311/Homework/HW3/trap_edge.sv
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1613890019.758000
+!s107 C:/Users/ew820/Desktop/School/Third Year/CPEN311/Homework/HW3/trap_edge.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/ew820/Desktop/School/Third Year/CPEN311/Homework/HW3/trap_edge.sv|
+!i113 1
+R4
+vtrap_edge_tb
+R0
+R5
+!i10b 1
+!s100 eX`lF[?NMW^n2f7SeZn@@2
+IDSo_h3bT>>QU41:6G`i?X1
+R1
+!s105 trap_edge_tb_sv_unit
+S1
+R2
+w1613832390
+8C:/Users/ew820/Desktop/School/Third Year/CPEN311/Homework/HW3/trap_edge_tb.sv
+FC:/Users/ew820/Desktop/School/Third Year/CPEN311/Homework/HW3/trap_edge_tb.sv
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1613890019.820000
+!s107 C:/Users/ew820/Desktop/School/Third Year/CPEN311/Homework/HW3/trap_edge_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/ew820/Desktop/School/Third Year/CPEN311/Homework/HW3/trap_edge_tb.sv|
+!i113 1
+R4

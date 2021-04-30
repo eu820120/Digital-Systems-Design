@@ -1,0 +1,15 @@
+C:/Users/ew820/Desktop/eric_wu_75286914_Lab2/rtl/freq_generate.sv {1 {vlog -work work -sv -stats=none C:/Users/ew820/Desktop/eric_wu_75286914_Lab2/rtl/freq_generate.sv
+Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+-- Compiling module freq_generate
+
+Top level modules:
+	freq_generate
+
+} {} {}} C:/Users/ew820/Desktop/eric_wu_75286914_Lab2/rtl/freq_generate_tb.sv {1 {vlog -work work -sv -stats=none C:/Users/ew820/Desktop/eric_wu_75286914_Lab2/rtl/freq_generate_tb.sv
+Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+-- Compiling module freq_generate_tb
+
+Top level modules:
+	freq_generate_tb
+
+} {} {}}

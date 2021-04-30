@@ -1,0 +1,29 @@
+{C:/Users/ew820/Desktop/School/Third Year/CPEN311/Homework/HW3/trap_edge.sv} {1 {vlog -work work -sv -stats=none {C:/Users/ew820/Desktop/School/Third Year/CPEN311/Homework/HW3/trap_edge.sv}
+Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+-- Compiling module trap_edge
+
+Top level modules:
+	trap_edge
+
+} {} {}} {C:/Users/ew820/Desktop/School/Third Year/CPEN311/Homework/HW3/shared_access_to_one_state_machine.sv} {1 {vlog -work work -sv -stats=none {C:/Users/ew820/Desktop/School/Third Year/CPEN311/Homework/HW3/shared_access_to_one_state_machine.sv}
+Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+-- Compiling module shared_access_to_one_state_machine
+
+Top level modules:
+	shared_access_to_one_state_machine
+
+} {} {}} {C:/Users/ew820/Desktop/School/Third Year/CPEN311/Homework/HW3/trap_edge_tb.sv} {1 {vlog -work work -sv -stats=none {C:/Users/ew820/Desktop/School/Third Year/CPEN311/Homework/HW3/trap_edge_tb.sv}
+Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+-- Compiling module trap_edge_tb
+
+Top level modules:
+	trap_edge_tb
+
+} {} {}} {C:/Users/ew820/Desktop/School/Third Year/CPEN311/Homework/HW3/shared_access_to_one_state_machine_tb.sv} {1 {vlog -work work -sv -stats=none {C:/Users/ew820/Desktop/School/Third Year/CPEN311/Homework/HW3/shared_access_to_one_state_machine_tb.sv}
+Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+-- Compiling module shared_access_to_one_state_machine_tb
+
+Top level modules:
+	shared_access_to_one_state_machine_tb
+
+} {} {}}
