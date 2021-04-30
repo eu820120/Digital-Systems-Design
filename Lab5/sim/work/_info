@@ -1,0 +1,358 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/ew820/Desktop/eric_wu_75286914_Lab5/sim
+vask_mod
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1617616456
+!i10b 1
+!s100 [H4CofGTLT;j7UmoO8zmc3
+Ibm1<nm4[1UzdA<<O^kdiU0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 ask_mod_sv_unit
+S1
+R0
+w1617436960
+8C:/Users/ew820/Desktop/eric_wu_75286914_Lab5/rtl/Lab5/Lab5_template_de1soc/ask_mod.sv
+FC:/Users/ew820/Desktop/eric_wu_75286914_Lab5/rtl/Lab5/Lab5_template_de1soc/ask_mod.sv
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1617616456.000000
+!s107 C:/Users/ew820/Desktop/eric_wu_75286914_Lab5/rtl/Lab5/Lab5_template_de1soc/ask_mod.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/ew820/Desktop/eric_wu_75286914_Lab5/rtl/Lab5/Lab5_template_de1soc/ask_mod.sv|
+!i113 1
+Z6 o-work work -sv
+Z7 tCvgOpt 0
+vbpsk_mod
+R1
+R2
+!i10b 1
+!s100 53RVS@?PlT72eBT;[VUZ`1
+I8]H2CJOm[Ic4Jc3@5YLdZ1
+R3
+!s105 bpsk_sv_unit
+S1
+R0
+w1617436976
+8C:/Users/ew820/Desktop/eric_wu_75286914_Lab5/rtl/Lab5/Lab5_template_de1soc/bpsk.sv
+FC:/Users/ew820/Desktop/eric_wu_75286914_Lab5/rtl/Lab5/Lab5_template_de1soc/bpsk.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/ew820/Desktop/eric_wu_75286914_Lab5/rtl/Lab5/Lab5_template_de1soc/bpsk.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/ew820/Desktop/eric_wu_75286914_Lab5/rtl/Lab5/Lab5_template_de1soc/bpsk.sv|
+!i113 1
+R6
+R7
+vcdc_bit
+R1
+R2
+!i10b 1
+!s100 3DLi[a:`U@2HA:4eeWiLf0
+I?@1A5]UNZEkdWOJYFI51Y3
+R3
+Z8 !s105 cdc_fast_to_slow_sv_unit
+S1
+R0
+Z9 w1617447308
+Z10 8C:/Users/ew820/Desktop/eric_wu_75286914_Lab5/rtl/Lab5/Lab5_template_de1soc/cdc_fast_to_slow.sv
+Z11 FC:/Users/ew820/Desktop/eric_wu_75286914_Lab5/rtl/Lab5/Lab5_template_de1soc/cdc_fast_to_slow.sv
+L0 68
+R4
+r1
+!s85 0
+31
+R5
+Z12 !s107 C:/Users/ew820/Desktop/eric_wu_75286914_Lab5/rtl/Lab5/Lab5_template_de1soc/cdc_fast_to_slow.sv|
+Z13 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/ew820/Desktop/eric_wu_75286914_Lab5/rtl/Lab5/Lab5_template_de1soc/cdc_fast_to_slow.sv|
+!i113 1
+R6
+R7
+vcdc_fast_to_slow
+R1
+R2
+!i10b 1
+!s100 jO>Kao^7P7I5hgjUXP5ah0
+Ijm[o]lCXjDW1kG63oZlQD3
+R3
+R8
+S1
+R0
+R9
+R10
+R11
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+R12
+R13
+!i113 1
+R6
+R7
+vcdc_slow_to_fast
+R1
+R2
+!i10b 1
+!s100 =giTKfV0_XAZ3Mzc;ZIMj1
+ILkI8THh<Skjn_L<a93HZh2
+R3
+!s105 cdc_slow_to_fast_sv_unit
+S1
+R0
+w1617451776
+8C:/Users/ew820/Desktop/eric_wu_75286914_Lab5/rtl/Lab5/Lab5_template_de1soc/cdc_slow_to_fast.sv
+FC:/Users/ew820/Desktop/eric_wu_75286914_Lab5/rtl/Lab5/Lab5_template_de1soc/cdc_slow_to_fast.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/ew820/Desktop/eric_wu_75286914_Lab5/rtl/Lab5/Lab5_template_de1soc/cdc_slow_to_fast.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/ew820/Desktop/eric_wu_75286914_Lab5/rtl/Lab5/Lab5_template_de1soc/cdc_slow_to_fast.sv|
+!i113 1
+R6
+R7
+vcdc_tb
+R1
+R2
+!i10b 1
+!s100 K6V1o5lh5[[^Z9VihgOQe2
+InE@oYa0HPQj4>>gBmk2`]1
+R3
+!s105 cdc_tb_sv_unit
+S1
+R0
+w1617445004
+8C:/Users/ew820/Desktop/eric_wu_75286914_Lab5/rtl/Lab5/Lab5_template_de1soc/cdc_tb.sv
+FC:/Users/ew820/Desktop/eric_wu_75286914_Lab5/rtl/Lab5/Lab5_template_de1soc/cdc_tb.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/ew820/Desktop/eric_wu_75286914_Lab5/rtl/Lab5/Lab5_template_de1soc/cdc_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/ew820/Desktop/eric_wu_75286914_Lab5/rtl/Lab5/Lab5_template_de1soc/cdc_tb.sv|
+!i113 1
+R6
+R7
+vclock1hz
+R1
+R2
+!i10b 1
+!s100 ^Q<4eodKmfMPc[YBNQzgH1
+ITO;3jN8NBTi:nX@:a=;I]3
+R3
+!s105 clock1hz_v_unit
+S1
+R0
+w1611759987
+8C:/Users/ew820/Desktop/eric_wu_75286914_Lab5/rtl/Lab5/Lab5_template_de1soc/clock1hz.v
+FC:/Users/ew820/Desktop/eric_wu_75286914_Lab5/rtl/Lab5/Lab5_template_de1soc/clock1hz.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/ew820/Desktop/eric_wu_75286914_Lab5/rtl/Lab5/Lab5_template_de1soc/clock1hz.v|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/ew820/Desktop/eric_wu_75286914_Lab5/rtl/Lab5/Lab5_template_de1soc/clock1hz.v|
+!i113 1
+R6
+R7
+vdds_tb
+R1
+R2
+!i10b 1
+!s100 iWBXBdCBSRci]`;eQ2>Ib1
+I7k@YoN<k@TmJ@F1a512jL2
+R3
+!s105 dds_tb_sv_unit
+S1
+R0
+w1617370176
+8C:/Users/ew820/Desktop/eric_wu_75286914_Lab5/rtl/Lab5/Lab5_template_de1soc/dds_tb.sv
+FC:/Users/ew820/Desktop/eric_wu_75286914_Lab5/rtl/Lab5/Lab5_template_de1soc/dds_tb.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/ew820/Desktop/eric_wu_75286914_Lab5/rtl/Lab5/Lab5_template_de1soc/dds_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/ew820/Desktop/eric_wu_75286914_Lab5/rtl/Lab5/Lab5_template_de1soc/dds_tb.sv|
+!i113 1
+R6
+R7
+vlfsr_5bit
+R1
+Z14 !s110 1617616455
+!i10b 1
+!s100 DA0PR^BX6acc]a1?>:AV72
+IlP8^RBmKG014H5?YlH:EG0
+R3
+!s105 lfsr_5bit_sv_unit
+S1
+R0
+w1617461547
+8C:/Users/ew820/Desktop/eric_wu_75286914_Lab5/rtl/Lab5/Lab5_template_de1soc/lfsr_5bit.sv
+FC:/Users/ew820/Desktop/eric_wu_75286914_Lab5/rtl/Lab5/Lab5_template_de1soc/lfsr_5bit.sv
+L0 1
+R4
+r1
+!s85 0
+31
+Z15 !s108 1617616455.000000
+!s107 C:/Users/ew820/Desktop/eric_wu_75286914_Lab5/rtl/Lab5/Lab5_template_de1soc/lfsr_5bit.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/ew820/Desktop/eric_wu_75286914_Lab5/rtl/Lab5/Lab5_template_de1soc/lfsr_5bit.sv|
+!i113 1
+R6
+R7
+vlfsr_5bit_tb
+R1
+R14
+!i10b 1
+!s100 SVhbnf^k4m;f`;bTF6``T1
+IEIBdWKoe[_hN1d>Yz_5eL0
+R3
+!s105 lfsr_5bit_tb_sv_unit
+S1
+R0
+w1617340964
+8C:/Users/ew820/Desktop/eric_wu_75286914_Lab5/rtl/Lab5/Lab5_template_de1soc/lfsr_5bit_tb.sv
+FC:/Users/ew820/Desktop/eric_wu_75286914_Lab5/rtl/Lab5/Lab5_template_de1soc/lfsr_5bit_tb.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/ew820/Desktop/eric_wu_75286914_Lab5/rtl/Lab5/Lab5_template_de1soc/lfsr_5bit_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/ew820/Desktop/eric_wu_75286914_Lab5/rtl/Lab5/Lab5_template_de1soc/lfsr_5bit_tb.sv|
+!i113 1
+R6
+R7
+vmod_tb
+R1
+R2
+!i10b 1
+!s100 e^]72Z1=oJ0zPi`o0FnD]3
+IH>?2liX]Gd]38]VemT4`72
+R3
+!s105 mod_tb_sv_unit
+S1
+R0
+w1617452131
+8C:/Users/ew820/Desktop/eric_wu_75286914_Lab5/rtl/Lab5/Lab5_template_de1soc/mod_tb.sv
+FC:/Users/ew820/Desktop/eric_wu_75286914_Lab5/rtl/Lab5/Lab5_template_de1soc/mod_tb.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/ew820/Desktop/eric_wu_75286914_Lab5/rtl/Lab5/Lab5_template_de1soc/mod_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/ew820/Desktop/eric_wu_75286914_Lab5/rtl/Lab5/Lab5_template_de1soc/mod_tb.sv|
+!i113 1
+R6
+R7
+Esincos_lut
+Z16 w1617276933
+Z17 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z18 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z19 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z20 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z21 8C:/Users/ew820/Desktop/eric_wu_75286914_Lab5/rtl/Lab5/Lab5_template_de1soc/sincos_lut.vhd
+Z22 FC:/Users/ew820/Desktop/eric_wu_75286914_Lab5/rtl/Lab5/Lab5_template_de1soc/sincos_lut.vhd
+l0
+L25
+VzLa`J^M^a7?H2FiU4Mhz;3
+!s100 7iWn1leeEa[=VGaM;5>8;2
+Z23 OV;C;10.5b;63
+32
+R2
+!i10b 1
+R15
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/ew820/Desktop/eric_wu_75286914_Lab5/rtl/Lab5/Lab5_template_de1soc/sincos_lut.vhd|
+Z25 !s107 C:/Users/ew820/Desktop/eric_wu_75286914_Lab5/rtl/Lab5/Lab5_template_de1soc/sincos_lut.vhd|
+!i113 1
+Z26 o-work work -2002 -explicit
+Z27 tExplicit 1 CvgOpt 0
+Artl
+R17
+R18
+R19
+R20
+DEx4 work 10 sincos_lut 0 22 zLa`J^M^a7?H2FiU4Mhz;3
+l1080
+L40
+VRXonLQFzdFWDi712D[RXP3
+!s100 5PS@B:PNXg`9HEY7Mn21@2
+R23
+32
+R2
+!i10b 1
+R15
+R24
+R25
+!i113 1
+R26
+R27
+Ewaveform_gen
+R16
+R17
+R19
+R20
+R0
+Z28 8C:/Users/ew820/Desktop/eric_wu_75286914_Lab5/rtl/Lab5/Lab5_template_de1soc/waveform_gen.vhd
+Z29 FC:/Users/ew820/Desktop/eric_wu_75286914_Lab5/rtl/Lab5/Lab5_template_de1soc/waveform_gen.vhd
+l0
+L25
+VoT0Qk<UT7HOJ7<PAd>7[S0
+!s100 O9<>HBaTeeZdZYXNFZ;ln1
+R23
+32
+R2
+!i10b 1
+R5
+Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/ew820/Desktop/eric_wu_75286914_Lab5/rtl/Lab5/Lab5_template_de1soc/waveform_gen.vhd|
+Z31 !s107 C:/Users/ew820/Desktop/eric_wu_75286914_Lab5/rtl/Lab5/Lab5_template_de1soc/waveform_gen.vhd|
+!i113 1
+R26
+R27
+Artl
+R17
+R19
+R20
+DEx4 work 12 waveform_gen 0 22 oT0Qk<UT7HOJ7<PAd>7[S0
+l69
+L48
+V8ogCfoTYno=lUBO]OcFl71
+!s100 bkd4_zF_Ql1MhU_RQhGRZ3
+R23
+32
+R2
+!i10b 1
+R5
+R30
+R31
+!i113 1
+R26
+R27
