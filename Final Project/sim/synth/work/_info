@@ -1,0 +1,171 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/altera/14.1
+vclk_divider_tb
+Z1 DXx6 sv_std 3 std 0 22 <EOTafDcUY:cQeO^ICn]m3
+Z2 !s110 1611578566
+!i10b 1
+!s100 oTY5ZO6Bm?DNYkdCH9[UM3
+IBbkXaI`QL2;zjZCACKc=80
+Z3 V`JN@9S9cnhjKRR_L]QIcM3
+!s105 clk_divider_tb_sv_unit
+S1
+R0
+w1611578468
+8C:/Users/ew820/Desktop/School/Third Year/CPEN311/LABS/Lab1/clk_divider_tb.sv
+FC:/Users/ew820/Desktop/School/Third Year/CPEN311/LABS/Lab1/clk_divider_tb.sv
+L0 1
+Z4 OV;L;10.3c;59
+r1
+!s85 0
+31
+!s108 1611578566.445000
+!s107 C:/Users/ew820/Desktop/School/Third Year/CPEN311/LABS/Lab1/clk_divider_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/ew820/Desktop/School/Third Year/CPEN311/LABS/Lab1/clk_divider_tb.sv|
+!i113 1
+Z5 o-work work -sv
+vclock_divider
+R1
+R2
+!i10b 1
+!s100 k]=LLYWD3n=eNE0l5aYe43
+ICFG0b2`ZQ[M`?XGJAaZUS0
+R3
+!s105 clock_divider_v_unit
+S1
+R0
+w1611577838
+8C:/Users/ew820/Desktop/School/Third Year/CPEN311/LABS/Lab1/clock_divider.v
+FC:/Users/ew820/Desktop/School/Third Year/CPEN311/LABS/Lab1/clock_divider.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1611578566.379000
+!s107 C:/Users/ew820/Desktop/School/Third Year/CPEN311/LABS/Lab1/clock_divider.v|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/ew820/Desktop/School/Third Year/CPEN311/LABS/Lab1/clock_divider.v|
+!i113 1
+R5
+vflash_addr_ctrl
+R1
+Z6 !s110 1619272682
+!i10b 1
+!s100 UM>D`2lzRLDHnaS_bFC<j3
+I<NOCPTLDAgKzDZPVKV?eF0
+R3
+!s105 flash_addr_ctrl_sv_unit
+S1
+R0
+w1619266196
+8C:/Users/ew820/Desktop/eric_wu_75286914_Final_project/rtl/Final Project/flash_addr_ctrl.sv
+FC:/Users/ew820/Desktop/eric_wu_75286914_Final_project/rtl/Final Project/flash_addr_ctrl.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1619272682.396000
+!s107 C:/Users/ew820/Desktop/eric_wu_75286914_Final_project/rtl/Final Project/flash_addr_ctrl.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/ew820/Desktop/eric_wu_75286914_Final_project/rtl/Final Project/flash_addr_ctrl.sv|
+!i113 1
+R5
+vphoneme_to_address
+R1
+R6
+!i10b 1
+!s100 7I0C9caPIgQ0eN@G<6a`G0
+Io^dCH:VG0^NcRFP3I9DR71
+R3
+!s105 phoneme_to_address_sv_unit
+S1
+R0
+w1619266012
+8C:/Users/ew820/Desktop/eric_wu_75286914_Final_project/rtl/Final Project/phoneme_to_address.sv
+FC:/Users/ew820/Desktop/eric_wu_75286914_Final_project/rtl/Final Project/phoneme_to_address.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1619272682.243000
+!s107 C:/Users/ew820/Desktop/eric_wu_75286914_Final_project/rtl/Final Project/phoneme_to_address.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/ew820/Desktop/eric_wu_75286914_Final_project/rtl/Final Project/phoneme_to_address.sv|
+!i113 1
+R5
+vq7
+R1
+Z7 !s110 1611571249
+!i10b 1
+!s100 <HLk3iR9hnL9GXdkX:^ig1
+IJcOh:i[kQF9]b2faU46kP1
+R3
+!s105 q7_sv_unit
+S1
+R0
+w1611569904
+8C:/Users/ew820/Desktop/School/Third Year/CPEN311/Homework/q7.sv
+FC:/Users/ew820/Desktop/School/Third Year/CPEN311/Homework/q7.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1611571249.573000
+!s107 C:/Users/ew820/Desktop/School/Third Year/CPEN311/Homework/q7.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/ew820/Desktop/School/Third Year/CPEN311/Homework/q7.sv|
+!i113 1
+R5
+vq7_tb
+R1
+R7
+!i10b 1
+!s100 Mz4o98?zA_5I`ICV:lZnd1
+IoYH=El<oJRRM`e^TGfKmd1
+R3
+!s105 q7_tb_sv_unit
+S1
+R0
+w1611571245
+8C:/Users/ew820/Desktop/School/Third Year/CPEN311/Homework/q7_tb.sv
+FC:/Users/ew820/Desktop/School/Third Year/CPEN311/Homework/q7_tb.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1611571249.500000
+!s107 C:/Users/ew820/Desktop/School/Third Year/CPEN311/Homework/q7_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/ew820/Desktop/School/Third Year/CPEN311/Homework/q7_tb.sv|
+!i113 1
+R5
+vsynth_tb
+R1
+R6
+!i10b 1
+!s100 z>9@f5E]C8lhMcD?7IG3a1
+I<BJXEHR5Xnm60;a8>2F=K1
+R3
+!s105 synth_tb_sv_unit
+S1
+R0
+w1619272679
+8C:/Users/ew820/Desktop/eric_wu_75286914_Final_project/rtl/Final Project/synth_tb.sv
+FC:/Users/ew820/Desktop/eric_wu_75286914_Final_project/rtl/Final Project/synth_tb.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1619272682.318000
+!s107 C:/Users/ew820/Desktop/eric_wu_75286914_Final_project/rtl/Final Project/synth_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/ew820/Desktop/eric_wu_75286914_Final_project/rtl/Final Project/synth_tb.sv|
+!i113 1
+R5

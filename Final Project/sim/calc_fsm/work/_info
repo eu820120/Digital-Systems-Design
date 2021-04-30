@@ -1,0 +1,56 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/ew820/Desktop/New folder
+vcalc_fsm
+Z0 DXx6 sv_std 3 std 0 22 <EOTafDcUY:cQeO^ICn]m3
+Z1 !s110 1619269977
+!i10b 1
+!s100 BamH2d2l?QP4IDDDLQgCi1
+IToc?;V@GPUe<54@Q=z4gF1
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+!s105 calc_fsm_sv_unit
+S1
+Z3 dC:/Users/ew820/Desktop/eric_wu_75286914_Final_project/sim/calc_fsm
+w1619264693
+8C:/Users/ew820/Desktop/eric_wu_75286914_Final_project/rtl/Final Project/calc_fsm.sv
+FC:/Users/ew820/Desktop/eric_wu_75286914_Final_project/rtl/Final Project/calc_fsm.sv
+L0 1
+Z4 OV;L;10.3c;59
+r1
+!s85 0
+31
+!s108 1619269977.549000
+!s107 C:/Users/ew820/Desktop/eric_wu_75286914_Final_project/rtl/Final Project/calc_fsm.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/ew820/Desktop/eric_wu_75286914_Final_project/rtl/Final Project/calc_fsm.sv|
+!i113 1
+Z5 o-work work -sv
+vcalc_fsm_tb
+R0
+R1
+!i10b 1
+!s100 ZYX0@>k1ajQm4hT1k_Yjn1
+IT[SVAQ^Y``l>JIaM?U6YJ0
+R2
+!s105 calc_fsm_tb_sv_unit
+S1
+R3
+w1619269970
+8C:/Users/ew820/Desktop/eric_wu_75286914_Final_project/rtl/Final Project/calc_fsm_tb.sv
+FC:/Users/ew820/Desktop/eric_wu_75286914_Final_project/rtl/Final Project/calc_fsm_tb.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1619269977.475000
+!s107 C:/Users/ew820/Desktop/eric_wu_75286914_Final_project/rtl/Final Project/calc_fsm_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/ew820/Desktop/eric_wu_75286914_Final_project/rtl/Final Project/calc_fsm_tb.sv|
+!i113 1
+R5

@@ -1,0 +1,15 @@
+{C:/Users/ew820/Desktop/eric_wu_75286914_Final_project/rtl/Final Project/flash_addr_ctrl.sv} {1 {vlog -work work -sv -stats=none {C:/Users/ew820/Desktop/eric_wu_75286914_Final_project/rtl/Final Project/flash_addr_ctrl.sv}
+Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+-- Compiling module flash_addr_ctrl
+
+Top level modules:
+	flash_addr_ctrl
+
+} {} {}} {C:/Users/ew820/Desktop/eric_wu_75286914_Final_project/rtl/Final Project/phoneme_to_address.sv} {1 {vlog -work work -sv -stats=none {C:/Users/ew820/Desktop/eric_wu_75286914_Final_project/rtl/Final Project/phoneme_to_address.sv}
+Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+-- Compiling module phoneme_to_address
+
+Top level modules:
+	phoneme_to_address
+
+} {} {}}

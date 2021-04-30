@@ -1,0 +1,15 @@
+{C:/Users/ew820/Desktop/eric_wu_75286914_Final_project/rtl/Final Project/calc_fsm.sv} {1 {vlog -work work -sv -stats=none {C:/Users/ew820/Desktop/eric_wu_75286914_Final_project/rtl/Final Project/calc_fsm.sv}
+Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+-- Compiling module calc_fsm
+
+Top level modules:
+	calc_fsm
+
+} {} {}} {C:/Users/ew820/Desktop/eric_wu_75286914_Final_project/rtl/Final Project/calc_fsm_tb.sv} {1 {vlog -work work -sv -stats=none {C:/Users/ew820/Desktop/eric_wu_75286914_Final_project/rtl/Final Project/calc_fsm_tb.sv}
+Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+-- Compiling module calc_fsm_tb
+
+Top level modules:
+	calc_fsm_tb
+
+} {} {}}
