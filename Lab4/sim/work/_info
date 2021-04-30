@@ -1,0 +1,56 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/altera/14.1
+vwrite_mem
+Z0 DXx6 sv_std 3 std 0 22 <EOTafDcUY:cQeO^ICn]m3
+Z1 !s110 1616405126
+!i10b 1
+!s100 oO;U[hC@LE8KEd7WDCJ<_0
+IaF3K7_H19i7L@:nd:8:cj1
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+!s105 write_mem_sv_unit
+S1
+Z3 dC:/Users/ew820/Desktop/eric_wu_75286914_Lab4/sim
+w1615798834
+8C:/Users/ew820/Desktop/eric_wu_75286914_Lab4/rtl/Lab4_task3_ok/template_de1soc/write_mem.sv
+FC:/Users/ew820/Desktop/eric_wu_75286914_Lab4/rtl/Lab4_task3_ok/template_de1soc/write_mem.sv
+L0 1
+Z4 OV;L;10.3c;59
+r1
+!s85 0
+31
+!s108 1616405126.900000
+!s107 C:/Users/ew820/Desktop/eric_wu_75286914_Lab4/rtl/Lab4_task3_ok/template_de1soc/write_mem.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/ew820/Desktop/eric_wu_75286914_Lab4/rtl/Lab4_task3_ok/template_de1soc/write_mem.sv|
+!i113 1
+Z5 o-work work -sv
+vwrite_mem_tb
+R0
+R1
+!i10b 1
+!s100 ETeG>3hCDH_@k7EMnH=<G2
+IYmN>[FL8P]_7O6Vj1LVRV3
+R2
+!s105 write_mem_tb_sv_unit
+S1
+R3
+w1615799640
+8C:/Users/ew820/Desktop/eric_wu_75286914_Lab4/rtl/Lab4_task3_ok/template_de1soc/write_mem_tb.sv
+FC:/Users/ew820/Desktop/eric_wu_75286914_Lab4/rtl/Lab4_task3_ok/template_de1soc/write_mem_tb.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1616405126.788000
+!s107 C:/Users/ew820/Desktop/eric_wu_75286914_Lab4/rtl/Lab4_task3_ok/template_de1soc/write_mem_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/ew820/Desktop/eric_wu_75286914_Lab4/rtl/Lab4_task3_ok/template_de1soc/write_mem_tb.sv|
+!i113 1
+R5

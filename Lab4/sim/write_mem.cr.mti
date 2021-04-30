@@ -1,0 +1,15 @@
+C:/Users/ew820/Desktop/eric_wu_75286914_Lab4/rtl/Lab4_task3_ok/template_de1soc/write_mem.sv {1 {vlog -work work -sv -stats=none C:/Users/ew820/Desktop/eric_wu_75286914_Lab4/rtl/Lab4_task3_ok/template_de1soc/write_mem.sv
+Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+-- Compiling module write_mem
+
+Top level modules:
+	write_mem
+
+} {} {}} C:/Users/ew820/Desktop/eric_wu_75286914_Lab4/rtl/Lab4_task3_ok/template_de1soc/write_mem_tb.sv {1 {vlog -work work -sv -stats=none C:/Users/ew820/Desktop/eric_wu_75286914_Lab4/rtl/Lab4_task3_ok/template_de1soc/write_mem_tb.sv
+Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+-- Compiling module write_mem_tb
+
+Top level modules:
+	write_mem_tb
+
+} {} {}}
