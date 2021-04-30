@@ -1,0 +1,4 @@
+Warning (10268): Verilog HDL information at write_mem.sv(118): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at write_mem2.sv(118): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at write_mem3.sv(118): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at write_mem4.sv(118): always construct contains both blocking and non-blocking assignments
