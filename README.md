@@ -104,13 +104,13 @@ The phoneme data were stored in the flash memory. Multiple FSM's were instantiat
 ### Audio sampling
 The audio data is 8 bit, so each address contains 4 audio data. A 7200Hz stimulus in FSM3 was used to sample the audio using the correct frequency. Instead of using a multiplexer approach like Lab 2, it is done with an FSM(FSM3) because we need to stop at a certain address and send a finish signal back to FSM2.
 
-## Volume meter 
+### Volume meter 
 The algorithm here is identical to Lab 3 expect we did it using a FSM instead of picoblaze.
 1. Calculate absolute value of 8-bit audio data (for each read)
 2. Calculate the sum of 256 audio data (after getting 256 values)
 3. Calculate the average using shift right
 4. Display LEDs representing the value of the most significant digit of the average
 
-## 8b10b Codec
+### 8b10b Codec
 An 8b10b serial link was emulated to practice using 8b10b codec. The 8-bit audio data was encoded and then decoded. The decoded data then is sent to the audio (should be the same as the original). The "silent" signal, which is 1 when a silent phoneme is selected, is used in the codec as the K28.5 control bit. If this control bit is detected after decoding, the audio will be muted. 
 
