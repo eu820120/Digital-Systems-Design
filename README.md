@@ -39,6 +39,9 @@ The LED will display will show the most significant binary digit of the average 
 # Lab 4 RC4 Decryption
 In this lab, we built an RC4 cracking circuit which implements a "brute force" attack on RC4 by cycling throught the entire keyspace and stopping when a successful decryption is performed. Parallel processing was also implemented in the end for faster cracking.
 
-
+### RC4 Algorithm
+```
+lol
+```
 
 
