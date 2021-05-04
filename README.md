@@ -34,7 +34,11 @@ Instead of using a FSM, Assembly code was used to implement the following algori
 ### Strength Meter Algorithm
 A interrupt routine is triggered each time a new value is read from the flash.\
 Each sound sample has its own "intensity" or absolute value. Once the interrupt accumulates and sums 256 of these values, the interrupt routine divides this sum by 256 every 256th interrupt triggered. This creates an averaging filter operation.\
-The LED will display will show the most significant binary digit of the average when the the 256th interrupt triggered. Then the counter will reset and go through the process again.\
+The LED will display will show the most significant binary digit of the average when the the 256th interrupt triggered. Then the counter will reset and go through the process again.
+
+# Lab 4 RC4 Decryption
+In this lab, we built an RC4 cracking circuit which implements a "brute force" attack on RC4 by cycling throught the entire keyspace and stopping when a successful decryption is performed. Parallel processing was also implemented in the end for faster cracking.
+
 
 
 
