@@ -28,7 +28,13 @@ The keys KEY[2:0] on the De1-soc board were use to control the stimulus frequenc
 + KEY[1] -> speed decrease
 + KEY[2] -> resets to 22Hz
 
-# Lab 3 
+# Lab 3 Strength meter
+In this lab, we used an embedded picoblaze processor to add a strength meter to our previous lab.\
+Instead of using a FSM, Assembly code was used to implement the following algorithm.
+### Strength Meter Algorithm
+A interrupt routine is triggered each time a new value is read from the flash.\
+Each sound sample has its own "intensity" or absolute value. Once the interrupt accumulates and sums 256 of these values, the interrupt routine divides this sum by 256 every 256th interrupt triggered. This creates an averaging filter operation.\
+The LED will display will show the most significant binary digit of the average when the the 256th interrupt triggered. Then the counter will reset and go through the process again.\
 
 
 
