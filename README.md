@@ -96,15 +96,18 @@ We used a DDS with a tuning word that would generate a 3 Hz carrier. Then we ins
 We instantiated a PIO that allows the Nios to read the LFSR 0-bit, and another PIO to allow Nios to control DDS tuning word. If LFSR bit is 0, the tuning word would generate a 1 Hz signal, if LFSR bit is 1, the tuning word would generate a 5 Hz signal.
 
 ## Final Project - Talking Calculator
-In this project, we made a talking calculator that can be used with a connected keyboard. The talking part was created using code that emulates the SPO256 speech synthesizer. The instructions of which phoneme to say were controlled by a picoblaze processor (Assembly). The calculation functionality and audio processing were all done in verilog.
+In this project, we made a talking calculator that can be used with a connected keyboard. The talking part was created using code that emulates the SPO256 speech synthesizer. Keyboard detect is done using a FSM, the FSM sends instructions to picoblaze and picoblaze sends the phoneme to audio processing FSM's.
 
-### Phoneme and audio data
-The phoneme data were stored in the flash memory. Multiple FSM's were instantiated where they interact with each other using start-finish protocol. Picoblaze sends the phoneme to FSM1, FSM1 converts the phoneme into start, end addresses and give it to FSM2, FSM2 converts byte addresses to word addresses and give it to FSM3, FSM3 reads the flash and sample the audio data, after FSM3 finishes it sends a signal back to FSM2, then FSM2 sends a signal to FSM1, then FSM1 sends a signal to Picoblaze to read the next instruction.
+### Calculation and Keyboard detect
+An FSM is used for detecting keyboard inputs, calculation and sending instructions to picoblaze. The FSM is seperated into four stages, First Number -> Operation -> Second Number -> Equal sign. If an invalid key is pressed on the keyboard, it will loop in that current stage until a valid input. The picoblaze only gets instructions from this FSM and send the corresponding phonemes to the audio processing FSM's, it does not do any calculation.
+
+### Phoneme and Audio data
+The phonemes are stored in the flash memory. Multiple FSM's were instantiated where they interact with each other using start-finish protocol. Picoblaze sends the phoneme to FSM1, FSM1 converts the phoneme into start, end addresses and give it to FSM2, FSM2 converts byte addresses to word addresses and give it to FSM3, FSM3 reads the flash and sample the audio data, after FSM3 finishes it sends a signal back to FSM2, then FSM2 sends a signal to FSM1, then FSM1 sends a signal to Picoblaze to read the next instruction.
 
 ### Audio sampling
 The audio data is 8 bit, so each address contains 4 audio data. A 7200Hz stimulus in FSM3 was used to sample the audio using the correct frequency. Instead of using a multiplexer approach like Lab 2, it is done with an FSM(FSM3) because we need to stop at a certain address and send a finish signal back to FSM2.
 
-### Volume meter 
+### Volume Meter 
 The algorithm here is identical to Lab 3 expect we did it using a FSM instead of picoblaze.
 1. Calculate absolute value of 8-bit audio data (for each read)
 2. Calculate the sum of 256 audio data (after getting 256 values)
