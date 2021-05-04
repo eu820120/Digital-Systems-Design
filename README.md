@@ -71,7 +71,7 @@ In this lab, we built an RC4 cracking circuit which implements a "brute force" a
  decrypted_output[k] = f xor encrypted_input[k] // 8 bit wide XOR function 
  }
 ```
-In this lab, we assumed secrek_key is only 24 bits.
+In this lab, we assumed secret_key is only 24 bits.
 
 ### RAM/ROM instantiation
 We used the Megafunction Wizard to create suitable RAM/ROM for our design.\
@@ -81,9 +81,10 @@ In-System Memory Content Editor was used to observe the contents and debug.
 The algorithm was implemented with a single FSM. \
 The key is set to 0 as default. Using the key, it goes through the decryption process and finds the output.\
 Then, the output is checked if its a successful decryption or not. We did this by checking if every character represents a letter in the alphabet or "space".\
-If the decryption is succesfull, the key is shown on the HEX display and the FSM stops running. If it is unsuccesful, the key increments by one and runs the whole process again until the right key is founded.
+If the decryption is succesful, the key is shown on the HEX display and the FSM stops running. If it is unsuccesful, the key increments by one and runs the whole process again until the right key is founded.
 
 ### Multicore Design
 A multicore design was used for increasing cracking speed. We used four decryption cores and split the search space into 4 equal size spaces. Once the correct key is found by any of the cores, a signal is sent out to stop all FSM's and the correct key is displayed on the HEX display.
 
+# Lab 5 VGA oscilloscope
 
