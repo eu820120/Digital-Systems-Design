@@ -17,11 +17,11 @@ Using a frequency divider, we easily got signals with 22Hz and 44Hz frequency. H
 
 ### Keyboard Interface and Speed Control
 By reading the ASCII code received from the keyboard, we made a control interface for the keyboard:
-+D > pause\
-+E > play\
-+R > reset\ 
-+B > rewind\ 
-+F > forward\  
++ D -> pause
++ E -> play
++ R -> reset 
++ B -> rewind 
++ F -> forward  
  
 The keys KEY[2:0] on the De1-soc board were use to control the stimulus frequency:
 
