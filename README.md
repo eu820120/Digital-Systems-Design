@@ -87,4 +87,7 @@ If the decryption is succesful, the key is shown on the HEX display and the FSM 
 A multicore design was used for increasing cracking speed. We used four decryption cores and split the search space into 4 equal size spaces. Once the correct key is found by any of the cores, a signal is sent out to stop all FSM's and the correct key is displayed on the HEX display.
 
 # Lab 5 VGA oscilloscope
+In this lab, we covered topics of Nios, Qsys, DDS (Direct Digital Synthesis), LFSR (Linear Feedback Shift Registers), Modulations (ASK, BPSK, FSK) and clock domain crossing. A VGA screen is used to display signals.
+
+### DDS with LFSR modulation
 
