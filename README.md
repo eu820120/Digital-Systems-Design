@@ -1,10 +1,10 @@
 # Digital-Systems-Design
 A Digital System Design course consisting of 5 labs and a final project. SystemVerilog, VHDL, Assembly and a De1-soc FPGA were used for these projects.
 
-# Lab 1 Tone organ
+## Lab 1 Tone organ
 Using a frequency divider, we generated "523Hz 587Hz 659Hz 698Hz 783Hz 880Hz 987Hz 1046Hz" signals from the 50MHz clock. The generated frequency is controllable from the switches SW[3:1]. SW[0] enables the audio output. A LED control was also done to have LEDs flashing from side to side.
 
-# Lab 2 Simple Ipod
+## Lab 2 Simple Ipod
 An MP3 was made using the De1-soc with Altera flash controller and a keyboard for audio control.
 ### Flash address and audio sampling
 Each word address in the flash contains a 32-bit sample, which means each word address contains two audio samples that we need.\
@@ -28,7 +28,7 @@ The keys KEY[2:0] on the De1-soc board were use to control the stimulus frequenc
 + KEY[1] -> speed decrease
 + KEY[2] -> resets to 22Hz
 
-# Lab 3 Strength meter
+## Lab 3 Strength meter
 In this lab, we used an embedded picoblaze processor to add a strength meter to our previous lab.\
 Instead of using a FSM, Assembly code was used to implement the following algorithm.
 ### Strength Meter Algorithm
@@ -36,7 +36,7 @@ A interrupt routine is triggered each time a new value is read from the flash.\
 Each sound sample has its own "intensity" or absolute value. Once the interrupt accumulates and sums 256 of these values, the interrupt routine divides this sum by 256 every 256th interrupt triggered. This creates an averaging filter operation.\
 The LED will display will show the most significant binary digit of the average when the the 256th interrupt triggered. Then the counter will reset and go through the process again.
 
-# Lab 4 RC4 Decryption
+## Lab 4 RC4 Decryption
 In this lab, we built an RC4 cracking circuit which implements a "brute force" attack on RC4 by cycling throught the entire keyspace and stopping when a successful decryption is performed. Parallel processing was also implemented in the end for faster cracking.
 
 ### RC4 Algorithm
@@ -86,8 +86,11 @@ If the decryption is succesful, the key is shown on the HEX display and the FSM 
 ### Multicore Design
 A multicore design was used for increasing cracking speed. We used four decryption cores and split the search space into 4 equal size spaces. Once the correct key is found by any of the cores, a signal is sent out to stop all FSM's and the correct key is displayed on the HEX display.
 
-# Lab 5 VGA oscilloscope
+## Lab 5 VGA oscilloscope
 In this lab, we covered topics of Nios, Qsys, DDS (Direct Digital Synthesis), LFSR (Linear Feedback Shift Registers), Modulations (ASK, BPSK, FSK) and clock domain crossing. A VGA screen is used to display signals.
 
-### DDS with LFSR modulation
+### DDS with LFSR modulation(ASK, BPSK)
+We used a DDS with a tuning word that would generate a 3 Hz carrier. Then we instantiated a 5-bit LFSR(with 1Hz clock) and used the 0-bit as a pseudo-random bit sequence. This bit is used for modulation of the DDS to generate ASK and BPSK signals.
 
+## FSK modulation using Nios
+We instantiated a PIO that allows the Niox to read the LFSR 0-bit, and another PIO to allow Nios to control DDS tuning word. If LFSR bit is 0, the tuning word would generate a 1 Hz signal, if LFSR bit is 1, the tuning word would generate a 5 Hz signal.
