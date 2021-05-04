@@ -92,5 +92,5 @@ In this lab, we covered topics of Nios, Qsys, DDS (Direct Digital Synthesis), LF
 ### DDS with LFSR modulation(ASK, BPSK)
 We used a DDS with a tuning word that would generate a 3 Hz carrier. Then we instantiated a 5-bit LFSR(with 1Hz clock) and used the 0-bit as a pseudo-random bit sequence. This bit is used for modulation of the DDS to generate ASK and BPSK signals.
 
-## FSK modulation using Nios
+### FSK modulation using Nios
 We instantiated a PIO that allows the Niox to read the LFSR 0-bit, and another PIO to allow Nios to control DDS tuning word. If LFSR bit is 0, the tuning word would generate a 1 Hz signal, if LFSR bit is 1, the tuning word would generate a 5 Hz signal.
