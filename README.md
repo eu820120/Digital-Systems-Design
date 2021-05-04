@@ -10,7 +10,7 @@ An MP3 was made using the De1-soc with Altera flash controller and a keyboard fo
 Each word address in the flash contains a 32-bit sample, which means each word address contains two audio samples that we need.\
 Instead of using full 16 bits for audio data, we only took first 8 bits. (This is how our professor set it up)\
 Our audio sampling rate was 22Hz and the audio sample was 8 bits long. Meaning that we toggle between higher bits and lower bits with frequency 22Hz, and change word addresses with frequency 44Hz.\
-An FSM was implemented to control the read address of the flash and a multiplexer was used to control audio data.\
+An FSM was implemented to control the read address of the flash and a multiplexer was used to control audio data.
 
 ### Frequency Generation and Edge Detector
 Using a frequency divider, we easily got signals with 22Hz and 44Hz frequency. However, the 50MHz clock is not synchronized with 22Hz and 44Hz, we had to build a edge detector and use the output signal as a stimulus for our FSM and multiplexer.
@@ -24,6 +24,11 @@ By reading the ASCII code received from the keyboard, we made a control interfac
 + F -> forward  
  
 The keys KEY[2:0] on the De1-soc board were use to control the stimulus frequency:
++ KEY[0] -> speed increase
++ KEY[1] -> speed decrease
++ KEY[2] -> resets to 22Hz
+
+# Lab 3 
 
 
 
